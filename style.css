@@ -1,0 +1,32 @@
+body{
+    background-color:blueviolet;
+}
+
+.painel{
+    margin: auto;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#sim{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+#nao{
+    height: 40px;
+    width:60px;
+    background-color: lime;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: 90px;
+}
