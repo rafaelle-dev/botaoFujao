@@ -10,7 +10,7 @@ body{
     border-radius: 20px;
     text-align: center;
     padding-top: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; 
 }
 #sim{
     position: absolute;
