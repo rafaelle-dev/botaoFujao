@@ -16,7 +16,7 @@ body{
     position: absolute;
     height: 40px;
     width: 60px;
-    background-color: red;
+    background-color: lime;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
@@ -24,7 +24,7 @@ body{
 #nao{
     height: 40px;
     width:60px;
-    background-color: lime;
+    background-color: red;
     border: 2px solid white;
     border-radius: 10px;
     color: white;
