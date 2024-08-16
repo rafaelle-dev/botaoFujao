@@ -30,3 +30,18 @@ body{
     color: white;
     margin-left: 90px;
 }
+body {
+  font-size: 16px;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+}
