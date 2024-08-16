@@ -16,5 +16,5 @@ function fuja(){
 }
 
 function Perfeito(){
-    alert("Que coincidência, eu também queria essa!♥")
+    alert("Oops, desculpe o engano, o botão correto não era aquele.")
 }
