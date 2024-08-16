@@ -1,32 +1,38 @@
-body{
-    background-color:blueviolet;
+body {
+  background-color: blueviolet;
+  font-size: 16px; /* Define o tamanho de fonte base */
 }
 
-.painel{
-    margin: auto;
-    background-color: white;
-    width: 500px;
-    height: 500px;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Times New Roman', Times, serif; 
+.painel {
+  margin: auto;
+  background-color: white;
+  width: 80%; /* Define a largura como uma porcentagem da tela */
+  max-width: 500px; /* Define um limite máximo de largura */
+  height: auto; /* Define a altura automaticamente */
+  border-radius: 20px;
+  text-align: center;
+  padding: 2em; /* Usa unidades relativas para espaçamento */
+  font-family: 'Times New Roman', Times, serif;
 }
-#sim{
-    position: absolute;
-    height: 40px;
-    width: 60px;
-    background-color: lime;
-    border: 2px solid white;
-    border-radius: 10px;
-    color: white;
+
+#sim, #nao {
+  display: inline-block; /* Exibe os botões como elementos em linha */
+  height: 3em;
+  width: 6em;
+  background-color: lime;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  margin: 1em; /* Espaçamento entre os botões */
 }
-#nao{
-    height: 40px;
-    width:60px;
-    background-color: red;
-    border: 2px solid white;
-    border-radius: 10px;
-    color: white;
-    margin-left: 90px;
+
+#nao {
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  /* Estilos para telas menores que 768px */
+  .painel {
+    width: 90%; /* Aumenta a largura para telas menores */
+  }
 }
