@@ -30,7 +30,7 @@ body {
   background-color: red;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   /* Estilos para telas menores que 768px */
   .painel {
     width: 90%; /* Aumenta a largura para telas menores */
