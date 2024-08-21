@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Pizza</title>
+    <link rel="stylesheet" href="Formulário.css">
+</head>
+<body>
+        
+    <h1>Pizzaria - Faça seu pedido!</h1>
+    <img src="pizza.png">
+    <br>
+        Nome:  <input type="text" name="nome"> <br>
+        Email: <input type="email" name="email"> <br>
+        <br>
+        Tamanho: 
+        <input type="radio" name="tamanho" value="p"> Pequeno
+        <input type="radio" name="tamanho" value="m"> Médio
+        <input type="radio" name="tamanho" value="g" checked> Grande 
+        <br>
+        Sabor: <select name="sabor">
+            <option> Frango</option>
+            <option> Calabresa</option>
+            <option> 4 queijos</option>
+            <option> Portuguesa </option>
+            <option> Frango com catupiry</option>
+            <option> Marguerita</option>
+            <option> Brigadeiro</option>
+            <option> Romeu e Julieta</option>
+            <option> Banana com canela</option>
+            
+
+        </select>
+        <br>
+        Borda:
+        <input type="checkbox" name="catupiry" value="sim"> Catupiry
+        <input type="checkbox" name="cheddar" value="sim"> Queijo Cheddar
+        <input type="checkbox" name="chocolate" value="sim"> Chocolate
+        <br>
+        Data Entrega: <input type="date" name="dataEntrega">
+        <br>
+        Comentário: <br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html> 
+
