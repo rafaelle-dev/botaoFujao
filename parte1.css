@@ -7,16 +7,16 @@ body {
 }
 
 header {
-    grid-column-start: 1;
-    grid-column-end: 12;
-    background-color: #8835b8;
+    grid-column-start: 1; /*final da coluna*/
+    grid-column-end: 12; /*início da coluna*/
+    background-color: #8835b8; /*cor escolhida*/
 }
 
 .menu {
     grid-column-start: 6;
     grid-column-end: 12;
     justify-content: center;/*centraliza o menu*/
-    gap: 20px;/*https://nekocalc.com/px-to-rem-converter*/
+    gap: 20px;
 }
 
 
